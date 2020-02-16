@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#landing .particles {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#0e6777));
+  background: linear-gradient(black, #0e6777);
+}
+/*# sourceMappingURL=index.css.map */
