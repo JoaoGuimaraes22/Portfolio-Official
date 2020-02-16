@@ -1,7 +1,29 @@
-#landing {
+.landing {
   .particles {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgb(0, 0, 0), rgb(14, 103, 119));
+    background: linear-gradient(#34648e, #57396f);
+  }
+  &-main {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @include flexCollumn;
+    color: #ffffff;
+    text-align: center;
+    &-subtitle {
+      margin-top: 0.3rem;
+    }
+    &-subtext {
+      margin-top: 0.6rem;
+    }
+    &-button {
+      margin-top: 1rem;
+    }
+    &-button:hover {
+      margin-bottom: -0.2rem;
+    }
   }
 }

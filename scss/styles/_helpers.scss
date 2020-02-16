@@ -1,0 +1,18 @@
+$prim-dark: #000;
+$sec-dark: #000;
+$prim-light: #000;
+$sec-light: #000;
+
+@mixin flexCollumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

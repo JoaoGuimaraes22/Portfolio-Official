@@ -8,6 +8,10 @@ const Home = () => (
     <Head>
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
     <Landing />
     <h1>Hello World</h1>
