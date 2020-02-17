@@ -1,16 +1,119 @@
 const Projects = () => {
   return (
-    <div className="projects">
-      <h1 className="projects-title subtitle">Coisas</h1>
-      {/* <div className="prj-container">
-        <div className="prj-container-proj prj-container-proj-1"></div>
-        <div className="prj-container-proj prj-container-proj-2"></div>
-        <div className="prj-container-proj prj-container-proj-3"></div>
-        <div className="prj-container-proj prj-container-proj-4"></div>
-        <div className="prj-container-proj prj-container-proj-5"></div>
-        <div className="prj-container-proj prj-container-proj-6"></div>
-      </div> */}
-    </div>
+    <section className="cards section" id="projects">
+      <div className="content">
+        <h1 className="subtitle heading">Projects</h1>
+        <p className="description">Hover over a project to see more.</p>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/logo.jpg)" }}
+          >
+            <p>Projecto 1</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/dog.jpg)" }}
+          >
+            <p>Projecto 2</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/test.jpg)" }}
+          >
+            <p>Projecto 3</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/app.jpeg)" }}
+          >
+            <p>Projecto 4</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/predios.jpg)" }}
+          >
+            <p>Projecto 5</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+        <a className="card" href="#!">
+          <div
+            className="front"
+            style={{ backgroundImage: "url(/media/imgs/tech.jpeg)" }}
+          >
+            <p>Projecto 6</p>
+          </div>
+          <div className="back">
+            <div>
+              <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+              <p>
+                Provident consectetur natus voluptatem quis tenetur sed beatae
+                eius sint.
+              </p>
+              <button className="button">Click Here</button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
   );
 };
 

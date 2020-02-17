@@ -2,7 +2,7 @@
   .particles {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#34648e, #57396f);
+    background: linear-gradient($back-prim, $back-sec);
   }
   &-main {
     position: absolute;
@@ -14,13 +14,14 @@
     color: #ffffff;
     text-align: center;
     &-subtitle {
-      margin-top: 0.3rem;
+      margin-top: 0.8rem;
+      font-size: 2.2rem;
     }
     &-subtext {
-      margin-top: 0.6rem;
+      margin-top: -0.6rem;
     }
     &-button {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
     &-button:hover {
       margin-bottom: -0.2rem;

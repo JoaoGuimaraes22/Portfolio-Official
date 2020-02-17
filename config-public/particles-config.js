@@ -1,10 +1,10 @@
 export const particlesConfig = {
   particles: {
     number: {
-      value: 90,
+      value: 70,
       density: {
         enable: true,
-        value_area: 300.75550259247282
+        value_area: 320.75550259247282
       }
     },
     color: {
@@ -54,7 +54,7 @@ export const particlesConfig = {
     },
     move: {
       enable: true,
-      speed: 4,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,

@@ -3,7 +3,10 @@ import Head from "next/head";
 import Landing from "../components/landing";
 import "../css/index.css";
 import Projects from "../components/projects";
-import Card from "../components/cards";
+import About from "../components/about";
+import Skills from "../components/skills";
+import Experience from "../components/experience";
+import Contact from "../components/contact";
 
 const Home = () => (
   <div>
@@ -16,8 +19,11 @@ const Home = () => (
       ></link>
     </Head>
     <Landing />
+    <About />
+    <Skills />
     <Projects />
-    <Card />
+    <Experience />
+    <Contact />
   </div>
 );
 

@@ -1,0 +1,14 @@
+.about {
+  background: linear-gradient($back-sec, $back-prim);
+  &-content {
+    &-title::after {
+      content: "";
+      position: absolute;
+      top: 74%;
+      left: 28.5%;
+      padding: 1.5px 0;
+      width: 40%;
+      background-color: #4383bb;
+    }
+  }
+}

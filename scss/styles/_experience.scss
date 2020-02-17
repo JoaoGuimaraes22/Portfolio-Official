@@ -1,0 +1,14 @@
+.experience {
+  background: linear-gradient($back-prim, $back-sec);
+  &-content {
+    &-title::after {
+      content: "";
+      position: absolute;
+      top: 74%;
+      left: 27%;
+      padding: 1.5px 0;
+      width: 45%;
+      background-color: #4383bb;
+    }
+  }
+}
