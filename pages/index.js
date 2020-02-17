@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Landing from "../components/landing";
 import "../css/index.css";
+import Projects from "../components/projects";
 
 const Home = () => (
   <div>
@@ -14,7 +15,7 @@ const Home = () => (
       ></link>
     </Head>
     <Landing />
-    <h1>Hello World</h1>
+    <Projects />
   </div>
 );
 
