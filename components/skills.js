@@ -1,5 +1,3 @@
-import { FiNavigation } from "react-icons/fi";
-
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -10,7 +8,7 @@ const Skills = () => {
         </p>
         <div className="skills-boxes">
           <div className="skills-box skills-box-frontend">
-            <FiNavigation className="skills-box-img" />
+            <div></div>
             <h2 className="skills-box-title small-title">Frontend</h2>
             <ul className="skills-box-list">
               <li className="skills-box-list-skill filler">AdobeXD</li>
