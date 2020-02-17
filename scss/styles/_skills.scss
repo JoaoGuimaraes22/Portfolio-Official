@@ -10,5 +10,39 @@
       width: 45%;
       background-color: #4383bb;
     }
+    .skills-boxes {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padding-top: 8vh;
+      grid-gap: 60px;
+      .skills-box {
+        @include flexCollumn;
+        background-color: rgba(255, 255, 255, 0.705);
+        border-radius: 3%;
+        padding: 0 1rem;
+        box-shadow: -7px 23px 136px -26px rgba(0, 0, 0, 0.75);
+        &-title {
+          color: #777;
+          padding: 2rem 0 1rem 0;
+          font-size: 1.3rem;
+          letter-spacing: normal;
+          text-align: center;
+        }
+        &-img {
+          margin-top: 2rem;
+          color: $back-sec;
+          font-size: 8rem;
+          text-align: center;
+        }
+        &-list {
+          color: #777;
+          list-style-type: none;
+          &-skill {
+            padding-bottom: 0.6rem;
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }
