@@ -1,5 +1,5 @@
 .skills {
-  background: linear-gradient($back-prim, $back-sec);
+  background: linear-gradient($back-sec, $back-prim);
   &-content {
     &-title::after {
       content: "";
@@ -13,14 +13,14 @@
     .skills-boxes {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      padding-top: 8vh;
-      grid-gap: 60px;
+      padding-top: 6rem;
+      grid-gap: 50px;
       .skills-box {
         @include flexCollumn;
-        background-color: rgba(255, 255, 255, 0.705);
-        border-radius: 3%;
-        padding: 0 1rem;
-        box-shadow: -7px 23px 136px -26px rgba(0, 0, 0, 0.75);
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 2%;
+        padding: 0 2rem;
+        box-shadow: -7px 23px 55px -26px rgba(0, 0, 0, 0.75);
         &-title {
           color: #777;
           padding: 2rem 0 1rem 0;
@@ -31,18 +31,39 @@
         &-img {
           margin-top: 2rem;
           color: $back-sec;
-          font-size: 8rem;
+          font-size: 6rem;
           text-align: center;
         }
         &-list {
           color: #777;
           list-style-type: none;
           &-skill {
-            padding-bottom: 0.6rem;
+            padding-bottom: 0.45rem;
             text-align: center;
+            font-size: 0.9rem;
+          }
+          &-skill-last {
+            padding-bottom: 2.3rem;
           }
         }
       }
+      .skills-box:hover {
+        transform: translateY(-1.3rem);
+        transition: 0.6s all;
+      }
     }
+  }
+}
+
+@media (max-width: 1005px) {
+  .skills-boxes {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 538px) {
+  .skills-boxes {
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 90%;
   }
 }

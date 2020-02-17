@@ -1,3 +1,7 @@
+import { MdWeb } from "react-icons/md";
+import { GoServer } from "react-icons/go";
+import { FiDatabase, FiCloud } from "react-icons/fi";
+
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -8,56 +12,53 @@ const Skills = () => {
         </p>
         <div className="skills-boxes">
           <div className="skills-box skills-box-frontend">
-            <div></div>
+            <MdWeb className="skills-box-img" />
             <h2 className="skills-box-title small-title">Frontend</h2>
             <ul className="skills-box-list">
               <li className="skills-box-list-skill filler">AdobeXD</li>
               <li className="skills-box-list-skill filler">CSS3 | SASS</li>
               <li className="skills-box-list-skill filler">JavaScript</li>
               <li className="skills-box-list-skill filler">React | Redux</li>
-              <li className="skills-box-list-skill filler">NextJS</li>
+              <li className="skills-box-list-skill skills-box-list-skill-last  filler">
+                NextJS
+              </li>
             </ul>
           </div>
           <div className="skills-box skills-box-backend">
-            <div
-              className="skills-box-img"
-              style={{ backgroundImage: "" }}
-            ></div>
+            <GoServer className="skills-box-img" />
             <h2 className="skills-box-title small-title">Backend</h2>
             <ul className="skills-box-list">
               <li className="skills-box-list-skill filler">C#</li>
               <li className="skills-box-list-skill filler">ASP.NET</li>
               <li className="skills-box-list-skill filler">NodeJS</li>
               <li className="skills-box-list-skill filler">Express</li>
-              <li className="skills-box-list-skill filler">NLP | NLU</li>
+              <li className="skills-box-list-skill skills-box-list-skill-last filler">
+                NLP | NLU
+              </li>
             </ul>
           </div>
           <div className="skills-box skills-box-database">
-            <div
-              className="skills-box-img"
-              style={{ backgroundImage: "" }}
-            ></div>
+            <FiDatabase className="skills-box-img" />
             <h2 className="skills-box-title small-title">Database</h2>
             <ul className="skills-box-list">
-              <li className="skills-box-list-skill filler">mySQL</li>
               <li className="skills-box-list-skill filler">PostgreSQL</li>
+              <li className="skills-box-list-skill filler">mySQL</li>
               <li className="skills-box-list-skill filler">MongoDB</li>
               <li className="skills-box-list-skill filler">Redis</li>
-              <li className="skills-box-list-skill filler">Azure DBs</li>
+              <li className="skills-box-list-skill skills-box-list-skill-last filler">
+                Azure DBs
+              </li>
             </ul>
           </div>
           <div className="skills-box skills-box-deployment">
-            <div
-              className="skills-box-img"
-              style={{ backgroundImage: "" }}
-            ></div>
+            <FiCloud className="skills-box-img" />
             <h2 className="skills-box-title small-title">Deployment</h2>
             <ul className="skills-box-list">
               <li className="skills-box-list-skill filler">Azure</li>
               <li className="skills-box-list-skill filler">Git | Github</li>
               <li className="skills-box-list-skill filler">Linux | Ubuntu</li>
               <li className="skills-box-list-skill filler">Docker</li>
-              <li className="skills-box-list-skill filler">
+              <li className="skills-box-list-skill skills-box-list-skill-last filler">
                 Kubernetes w/ NGINX
               </li>
             </ul>

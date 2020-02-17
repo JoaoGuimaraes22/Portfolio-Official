@@ -1,5 +1,5 @@
 .about {
-  background: linear-gradient($back-sec, $back-prim);
+  background: $back-sec;
   &-content {
     &-title::after {
       content: "";

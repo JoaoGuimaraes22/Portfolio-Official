@@ -30,7 +30,7 @@ html {
   width: 100%;
   line-height: 1;
   font-family: "Lato", sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   padding-bottom: 0.5em;
@@ -175,8 +175,7 @@ html {
 }
 
 .about {
-  background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
-  background: linear-gradient(#57396f, #34648e);
+  background: #57396f;
 }
 
 .about-content-title::after {
@@ -190,8 +189,8 @@ html {
 }
 
 .skills {
-  background: -webkit-gradient(linear, left top, left bottom, from(#34648e), to(#57396f));
-  background: linear-gradient(#34648e, #57396f);
+  background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
+  background: linear-gradient(#57396f, #34648e);
 }
 
 .skills-content-title::after {
@@ -209,8 +208,8 @@ html {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  padding-top: 8vh;
-  grid-gap: 60px;
+  padding-top: 6rem;
+  grid-gap: 50px;
 }
 
 .skills-content .skills-boxes .skills-box {
@@ -227,11 +226,11 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, 0.705);
-  border-radius: 3%;
-  padding: 0 1rem;
-  -webkit-box-shadow: -7px 23px 136px -26px rgba(0, 0, 0, 0.75);
-          box-shadow: -7px 23px 136px -26px rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2%;
+  padding: 0 2rem;
+  -webkit-box-shadow: -7px 23px 55px -26px rgba(0, 0, 0, 0.75);
+          box-shadow: -7px 23px 55px -26px rgba(0, 0, 0, 0.75);
 }
 
 .skills-content .skills-boxes .skills-box-title {
@@ -245,7 +244,7 @@ html {
 .skills-content .skills-boxes .skills-box-img {
   margin-top: 2rem;
   color: #57396f;
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -255,14 +254,42 @@ html {
 }
 
 .skills-content .skills-boxes .skills-box-list-skill {
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.45rem;
   text-align: center;
+  font-size: 0.9rem;
+}
+
+.skills-content .skills-boxes .skills-box-list-skill-last {
+  padding-bottom: 2.3rem;
+}
+
+.skills-content .skills-boxes .skills-box:hover {
+  -webkit-transform: translateY(-1.3rem);
+          transform: translateY(-1.3rem);
+  -webkit-transition: 0.6s all;
+  transition: 0.6s all;
+}
+
+@media (max-width: 1005px) {
+  .skills-boxes {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 538px) {
+  .skills-boxes {
+    -ms-grid-columns: (1fr)[1] !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    width: 90%;
+  }
 }
 
 .cards {
   padding-top: 2rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
-  background: linear-gradient(#57396f, #34648e);
+  padding-bottom: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#34648e), to(#429be9));
+  background: linear-gradient(#34648e, #429be9);
   font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -279,19 +306,19 @@ html {
 .card {
   color: inherit;
   cursor: pointer;
-  width: calc(33% - 7.5rem);
-  min-width: calc(33% - 7.5rem);
-  height: 270px;
-  min-height: 270px;
+  width: calc(33% - 4rem);
+  min-width: calc(33% - 4rem);
+  height: 280px;
+  min-height: 280px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
-  margin: 1rem 2rem;
+  margin: 2rem 1rem;
   position: relative;
 }
 
 @media screen and (max-width: 800px) {
   .card {
-    width: calc(50% - 7.5rem);
+    width: calc(50% - 4rem);
   }
 }
 
@@ -460,8 +487,8 @@ html {
 }
 
 .experience {
-  background: -webkit-gradient(linear, left top, left bottom, from(#34648e), to(#57396f));
-  background: linear-gradient(#34648e, #57396f);
+  background: -webkit-gradient(linear, left top, left bottom, from(#429be9), to(#34648e));
+  background: linear-gradient(#429be9, #34648e);
 }
 
 .experience-content-title::after {
@@ -475,8 +502,8 @@ html {
 }
 
 .contact {
-  background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
-  background: linear-gradient(#57396f, #34648e);
+  background: -webkit-gradient(linear, left top, left bottom, from(#34648e), to(#57396f));
+  background: linear-gradient(#34648e, #57396f);
 }
 
 .contact-content-title::after {
