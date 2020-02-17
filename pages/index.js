@@ -3,6 +3,7 @@ import Head from "next/head";
 import Landing from "../components/landing";
 import "../css/index.css";
 import Projects from "../components/projects";
+import Card from "../components/cards";
 
 const Home = () => (
   <div>
@@ -16,6 +17,7 @@ const Home = () => (
     </Head>
     <Landing />
     <Projects />
+    <Card />
   </div>
 );
 
