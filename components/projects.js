@@ -15,14 +15,22 @@ const Projects = () => {
               className="front"
               style={{ backgroundImage: "url(/media/imgs/logo.jpg)" }}
             >
-              <p>Projecto 1</p>
+              <h2 className="proj-title">Projecto 1</h2>
+              <ul className="proj-list">
+                <li className="proj-list-item">React</li>
+                <li className="proj-list-item">NodeJS</li>
+                <li className="proj-list-item">Express</li>
+                <li className="proj-list-item">MongoDB</li>
+              </ul>
             </div>
             <div className="back">
               <div>
-                <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
                 <p>
-                  Provident consectetur natus voluptatem quis tenetur sed beatae
-                  eius sint.
+                  Augmented Reality Android/IoS app w/ Dynamics 365 connector.
+                </p>
+                <p>
+                  Recognizes objects using your phone camera and detects damaged
+                  objects.
                 </p>
                 <button className="button">Click Here</button>
               </div>

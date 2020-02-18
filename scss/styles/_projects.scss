@@ -48,6 +48,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
@@ -57,13 +58,11 @@
 
 .front {
   background-size: cover;
-  padding: 2rem;
-  font-size: 1.618rem;
-  font-weight: 600;
   color: #fff;
   overflow: hidden;
   font-family: Poppins, sans-serif;
 }
+
 .front:before {
   position: absolute;
   display: block;
@@ -153,4 +152,16 @@
 .button:active:before {
   transform: translateZ(-20px);
   top: 12px;
+}
+
+.proj-title {
+}
+.proj-list {
+  list-style: none;
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+.proj-list-item {
+  margin: 0.6rem 0;
+  border-bottom: 1px solid white;
 }

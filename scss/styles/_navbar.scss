@@ -124,3 +124,8 @@
     opacity: 1;
   }
 }
+
+.nav:hover {
+  background-color: $back-prim;
+  transition: 0.2s all;
+}
