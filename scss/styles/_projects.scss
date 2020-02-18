@@ -24,10 +24,10 @@
   height: 280px;
   min-height: 280px;
   perspective: 1000px;
-  margin: 2rem 1rem;
+  margin: 2rem 1.5rem;
   position: relative;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
   .card {
     width: calc(50% - 4rem);
   }

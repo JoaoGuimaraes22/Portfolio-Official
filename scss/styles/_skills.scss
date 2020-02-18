@@ -19,7 +19,7 @@
         @include flexCollumn;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 2%;
-        padding: 0 2rem;
+        padding: 0 1rem;
         box-shadow: -7px 23px 55px -26px rgba(0, 0, 0, 0.75);
         &-title {
           color: #777;
@@ -55,13 +55,16 @@
   }
 }
 
-@media (max-width: 1005px) {
+@media (max-width: 960px) {
   .skills-boxes {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+  .skills-box {
+    padding: 0 3rem !important;
+  }
 }
 
-@media (max-width: 538px) {
+@media (max-width: 540px) {
   .skills-boxes {
     grid-template-columns: repeat(1, 1fr) !important;
     width: 90%;

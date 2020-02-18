@@ -7,23 +7,30 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Experience from "../components/experience";
 import Contact from "../components/contact";
+import Layout from "../layout/layout";
 
 const Home = () => (
   <div>
     <Head>
       <title>Home</title>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+      ></meta>
       <link rel="icon" href="/favicon.ico" />
       <link
         href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
         rel="stylesheet"
       ></link>
     </Head>
-    <Landing />
-    <About />
-    <Skills />
-    <Projects />
-    <Experience />
-    <Contact />
+    <Layout>
+      <Landing />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
+    </Layout>
   </div>
 );
 

@@ -1,9 +1,14 @@
+import Fade from "react-reveal/Fade";
+
 const Projects = () => {
   return (
     <section className="cards section" id="projects">
       <div className="content">
-        <h1 className="subtitle heading">Projects</h1>
-        <p className="description">Hover over a project to see more.</p>
+        <Fade>
+          <h1 className="subtitle heading">Projects</h1>
+          <p className="description">Hover over a project to see more.</p>
+        </Fade>
+
         <a className="card" href="#!">
           <div
             className="front"
@@ -22,10 +27,11 @@ const Projects = () => {
             </div>
           </div>
         </a>
+
         <a className="card" href="#!">
           <div
             className="front"
-            style={{ backgroundImage: "url(/media/imgs/dog.jpg)" }}
+            style={{ backgroundImage: "url(/media/imgs/app.jpeg)" }}
           >
             <p>Projecto 2</p>
           </div>
@@ -40,6 +46,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
+
         <a className="card" href="#!">
           <div
             className="front"
@@ -58,6 +65,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
+
         <a className="card" href="#!">
           <div
             className="front"
@@ -76,6 +84,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
+
         <a className="card" href="#!">
           <div
             className="front"
@@ -94,6 +103,7 @@ const Projects = () => {
             </div>
           </div>
         </a>
+
         <a className="card" href="#!">
           <div
             className="front"
