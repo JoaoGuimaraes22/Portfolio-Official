@@ -1,5 +1,5 @@
 .experience {
-  background: linear-gradient(#429be9, $back-prim);
+  background: linear-gradient($blue-light, $back-prim);
   &-content {
     &-title::after {
       content: "";
@@ -10,5 +10,72 @@
       width: 45%;
       background-color: #4383bb;
     }
+    &-container {
+      @include flexCollumn;
+      margin: 0 2rem 0 2rem;
+      .experience-box {
+        margin-top: 3rem;
+        padding: 2rem;
+        color: #777;
+        background-color: rgba(255, 255, 255, 0.7);
+        @include flexRow;
+        border-radius: 1%;
+        .text {
+          &-title {
+            text-align: left;
+            color: #777 !important;
+            letter-spacing: normal;
+          }
+          &-desc {
+            font-family: $font-small;
+            font-size: 0.85rem;
+            &-d {
+            }
+            &-d2 {
+              color: #777;
+              margin-top: 1rem;
+            }
+            &-list {
+              margin-left: 2rem;
+              &-item {
+                width: 95%;
+              }
+            }
+          }
+        }
+        &-img-container {
+          width: 100%;
+          height: auto;
+          margin-left: 2rem;
+          img {
+            border-radius: 3%;
+            width: 90%;
+            height: auto;
+          }
+        }
+        &-img-container-2 {
+          width: 100%;
+          height: auto;
+
+          img {
+            border-radius: 3%;
+            width: 90%;
+            height: auto;
+          }
+        }
+      }
+      .experience-box-2 {
+        @include invFlexRow;
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .experience-box {
+    flex-direction: column !important;
+  }
+  .experience-box-img-container {
+    margin-top: 2rem;
   }
 }

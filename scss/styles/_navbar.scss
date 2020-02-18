@@ -6,6 +6,7 @@
   top: 0;
   width: 100%;
   z-index: 10000;
+  animation: iniOpacity 1.7s;
 }
 
 .nav > .nav-header {
@@ -99,5 +100,27 @@
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+}
+
+@keyframes iniOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -35,10 +35,14 @@ const Skills = () => {
               <ul className="skills-box-list">
                 <li className="skills-box-list-skill filler">C#</li>
                 <li className="skills-box-list-skill filler">ASP.NET</li>
-                <li className="skills-box-list-skill filler">NodeJS</li>
-                <li className="skills-box-list-skill filler">Express</li>
+                <li className="skills-box-list-skill filler">
+                  NodeJS | Express
+                </li>
+                <li className="skills-box-list-skill filler">
+                  NLP | NLU | Bots
+                </li>
                 <li className="skills-box-list-skill skills-box-list-skill-last filler">
-                  NLP | NLU
+                  Augmented Reality{" "}
                 </li>
               </ul>
             </div>
