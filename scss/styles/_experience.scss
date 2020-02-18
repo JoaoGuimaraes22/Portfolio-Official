@@ -12,7 +12,7 @@
     }
     &-container {
       @include flexCollumn;
-      margin: 0 2rem 0 2rem;
+      padding: 0 2rem 0 2rem;
       .experience-box {
         margin-top: 3rem;
         padding: 2rem;
@@ -20,6 +20,8 @@
         background-color: rgba(255, 255, 255, 0.7);
         @include flexRow;
         border-radius: 1%;
+        box-shadow: -7px 23px 55px -26px rgba(0, 0, 0, 0.75);
+        transition: 0.6s all;
         .text {
           width: 80%;
           &-title {
@@ -29,15 +31,13 @@
           }
           &-desc {
             font-family: $font-small;
-            font-size: 0.85rem;
-            &-d {
-            }
+            font-size: 0.75rem;
             &-d2 {
               color: #777;
               margin-top: 1rem;
             }
             &-list {
-              margin-left: 2rem;
+              margin-left: 1rem;
               &-item {
                 width: 95%;
               }
@@ -51,12 +51,13 @@
           img {
             border-radius: 3%;
             width: 90%;
-            height: auto;
+            height: 160%;
           }
         }
         &-img-container-2 {
           width: 100%;
           height: auto;
+          margin-left: 0;
           img {
             border-radius: 3%;
             width: 90%;
@@ -71,11 +72,20 @@
   }
 }
 
+.experience-box:hover {
+  transition: 2s all;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
 @media (max-width: 960px) {
   .experience-box {
     flex-direction: column !important;
   }
   .experience-box-img-container {
     margin-top: 2rem;
+  }
+  .experience-box-img-container-2 {
+    margin-left: 2rem !important;
   }
 }

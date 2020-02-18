@@ -1,5 +1,5 @@
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 
 const About = () => {
   const getAge = () => {
@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </Fade>
         <div className="about-content-container ">
-          <Zoom>
+          <Slide bottom>
             <div className="about-main-text">
               <p className="about-main-text-desc-1 about-main-text-desc filler">
                 Hello! I'm João Guimarães, I'm a {getAge()} years old fullstack
@@ -28,8 +28,9 @@ const About = () => {
                 <br />
               </p>
               <p className="about-main-text-desc-2 about-main-text-desc filler">
-                My greatest passions are technology, volleyball and personal
-                finance.
+                I've always loved tech and sports. Until I was 19, I was a
+                high-level volleybal player. My greatest passions are
+                technology, volleyball and personal finance.
               </p>
               <p className="about-main-text-desc-3 about-main-text-desc filler">
                 My focus is on the development of modern and efficient websites,
@@ -38,16 +39,16 @@ const About = () => {
                 interaction.
               </p>
             </div>
-          </Zoom>
+          </Slide>
           <div className="about-img-container">
             <a href="https://github.com/JoaoGuimaraes22" target="_blank">
-              <Zoom>
+              <Slide bottom>
                 <img
                   src="/media/imgs/Me.jpg"
                   style={{ height: "auto", width: "100%" }}
                   className="about-img-container-img"
                 ></img>
-              </Zoom>
+              </Slide>
             </a>
           </div>
         </div>
