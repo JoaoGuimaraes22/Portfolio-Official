@@ -614,6 +614,10 @@ a {
   border-radius: 1%;
 }
 
+.experience-content-container .experience-box .text {
+  width: 80%;
+}
+
 .experience-content-container .experience-box .text-title {
   text-align: left;
   color: #777 !important;

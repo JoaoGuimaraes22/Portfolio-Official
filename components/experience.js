@@ -61,8 +61,13 @@ const Experience = () => {
                 </p>
                 <p className="text-desc-d text-desc-d2">
                   I started working there at 18 years old and worked for a year.
+                  <br />
                   There, I worked as a full-stack developer mainly using the
-                  Microsoft Tech Stack and React. What I did was:
+                  Microsoft Tech Stack and React.
+                  <br />
+                  <br /> What I did was:
+                  <br />
+                  <br />
                 </p>
                 <ul className="text-desc-list">
                   <li className="text-desc-list-item">
