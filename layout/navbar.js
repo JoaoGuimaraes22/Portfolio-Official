@@ -2,22 +2,22 @@ const Navbar = () => {
   return (
     <nav className="nav" id="nav">
       <input type="checkbox" id="nav-check"></input>
-      <div class="nav-header">
-        <div class="nav-title ">
+      <div className="nav-header">
+        <div className="nav-title ">
           <a href="/" className="nav-title-link">
             JoG
           </a>
         </div>
       </div>
-      <div class="nav-btn">
-        <label for="nav-check">
+      <div className="nav-btn">
+        <label htmlFor="nav-check">
           <span></span>
           <span></span>
           <span></span>
         </label>
       </div>
 
-      <div class="nav-links">
+      <div className="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
