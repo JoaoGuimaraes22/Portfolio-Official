@@ -193,6 +193,69 @@ a {
   background-color: #4383bb;
 }
 
+.about-content-container {
+  padding: 1.5rem;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-content-container .about-main-text {
+  padding-right: 9rem;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-content-container .about-main-text-desc {
+  padding-bottom: 2rem;
+}
+
+.about-content-container .about-img-container {
+  width: 110%;
+}
+
+@media (max-width: 960px) {
+  .about-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .about-content-container .about-main-text {
+    padding-right: 0;
+    width: 80%;
+    text-align: left;
+  }
+  .about-content-container .about-main-text-desc {
+    font-size: 0.8rem;
+  }
+  .about-content-container .about-img-container {
+    width: 80%;
+  }
+}
+
 .skills {
   background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
   background: linear-gradient(#57396f, #34648e);

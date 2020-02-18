@@ -10,5 +10,43 @@
       width: 40%;
       background-color: #4383bb;
     }
+    &-container {
+      padding: 1.5rem;
+      margin-top: 4rem;
+      @include flexRow;
+      .about-main-text {
+        padding-right: 9rem;
+        text-align: left;
+        color: #ffffff;
+        &-desc {
+          padding-bottom: 2rem;
+        }
+      }
+      .about-img-container {
+        width: 110%;
+        &-img {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .about-content-container {
+    @include flexCollumn;
+    width: 90%;
+    margin-top: 2rem;
+
+    .about-main-text {
+      padding-right: 0;
+      width: 80%;
+      text-align: left;
+      &-desc {
+        font-size: 0.8rem;
+      }
+    }
+    .about-img-container {
+      width: 80%;
+    }
   }
 }

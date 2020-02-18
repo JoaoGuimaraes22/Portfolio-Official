@@ -18,22 +18,12 @@ const Navbar = () => {
       </div>
 
       <div class="nav-links">
-        <a href="//github.io/jo_geek" target="_blank">
-          About
-        </a>
-        <a href="http://stackoverflow.com/users/4084003/" target="_blank">
-          Skills
-        </a>
-        <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">
-          Projects
-        </a>
-        <a href="https://codepen.io/jo_Geek/" target="_blank">
-          Experience
-        </a>
-        <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">
-          Contact
-        </a>
-        <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="/media/pdf/dummy.pdf" target="_blank">
           Resume
         </a>
       </div>
