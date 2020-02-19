@@ -1,6 +1,9 @@
 .about {
   background: $back-sec;
   &-content {
+    &-title {
+      position: relative;
+    }
     &-title::after {
       content: "";
       position: absolute;
@@ -10,6 +13,7 @@
       width: 40%;
       background-color: #4383bb;
     }
+
     &-container {
       padding: 1.5rem;
       margin-top: 4rem;
@@ -19,13 +23,27 @@
         text-align: left;
         color: $text-color;
         &-desc {
-          padding-bottom: 2rem;
+          padding-top: 2rem;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid $blue-light;
+        }
+        &-desc:hover {
+          animation: changeFont 1s;
+          transition: 1s all;
+          font-size: 1.07rem;
+          color: white;
         }
       }
       .about-img-container {
+        padding-top: 1.7rem;
         width: 110%;
         &-img {
+          border-radius: 3%;
         }
+      }
+      .about-img-container:hover {
+        width: 115%;
+        transition: 1s all;
       }
     }
   }

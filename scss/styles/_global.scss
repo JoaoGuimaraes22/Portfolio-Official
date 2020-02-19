@@ -67,6 +67,11 @@ a {
   text-align: center;
 }
 
+.description:hover {
+  font-size: 1.1rem;
+  transition: 0.4s all;
+}
+
 .subtitle-dark {
   width: 100%;
   line-height: 1;

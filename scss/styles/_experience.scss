@@ -31,7 +31,7 @@
           }
           &-desc {
             font-family: $font-small;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             &-d2 {
               color: #777;
               margin-top: 1rem;
@@ -73,8 +73,8 @@
 }
 
 .experience-box:hover {
-  transition: 2s all;
-  background-color: black;
+  transition: 1.5s all;
+  background-color: #242425;
   color: rgb(255, 255, 255);
 }
 
