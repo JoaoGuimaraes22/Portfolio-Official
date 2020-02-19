@@ -16,7 +16,7 @@ const Landing = () => {
             If it's hard to say, just call me John
           </p>
           <a className="landing-main-button btn-light" href="#projects">
-            See more
+            See projects
           </a>
         </Zoom>
       </div>
