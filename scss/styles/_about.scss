@@ -53,8 +53,8 @@
   .about-content-container {
     @include flexCollumn;
     width: 90%;
-    margin-top: 2rem;
-
+    margin-top: 0 !important;
+    padding-top: 0 !important;
     .about-main-text {
       padding-right: 0;
       width: 80%;

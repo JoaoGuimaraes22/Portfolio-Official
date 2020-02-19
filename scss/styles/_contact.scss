@@ -63,7 +63,11 @@
 }
 
 @media (max-width: 960px) {
+  .form {
+    padding-bottom: 0 !important;
+  }
   .form-div {
     width: 65% !important;
+    padding-bottom: 1rem !important;
   }
 }
