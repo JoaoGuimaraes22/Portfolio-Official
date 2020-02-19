@@ -1,4 +1,5 @@
 import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
           </p>
         </Fade>
         <div className="experience-content-container">
-          <Fade left>
+          <Zoom>
             <div className="experience-box experience-box-1">
               <div className="text">
                 <h3 className="text-title small-title">Becoming a developer</h3>
@@ -48,9 +49,9 @@ const Experience = () => {
                 <img src="/media/imgs/code.jpg"></img>
               </div>
             </div>
-          </Fade>
+          </Zoom>
 
-          <Fade right>
+          <Zoom>
             <div className="experience-box experience-box-2">
               <div className="text">
                 <h3 className="text-title small-title">
@@ -100,7 +101,7 @@ const Experience = () => {
                 <img src="/media/imgs/unip.png"></img>
               </div>
             </div>
-          </Fade>
+          </Zoom>
         </div>
       </div>
     </section>
