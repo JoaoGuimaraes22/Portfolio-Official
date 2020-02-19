@@ -758,6 +758,7 @@ a {
 }
 
 .contact-content .form {
+  padding-bottom: 3rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -835,6 +836,12 @@ a {
 
 .contact-content .form-div-btn:focus {
   background: #429be979;
+}
+
+@media (max-width: 960px) {
+  .form-div {
+    width: 65% !important;
+  }
 }
 
 .nav {

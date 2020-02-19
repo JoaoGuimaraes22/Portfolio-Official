@@ -11,6 +11,7 @@
       background-color: #4383bb;
     }
     .form {
+      padding-bottom: 3rem;
       width: 100%;
       @include flexCollumn;
       &-div {
@@ -58,5 +59,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 960px) {
+  .form-div {
+    width: 65% !important;
   }
 }
