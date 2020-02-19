@@ -255,8 +255,6 @@ a {
 }
 
 .about-content-container .about-main-text-desc:hover {
-  -webkit-animation: changeFont 1s;
-          animation: changeFont 1s;
   -webkit-transition: 1s all;
   transition: 1s all;
   font-size: 1.07rem;
@@ -305,8 +303,21 @@ a {
   .about-content-container .about-main-text-desc {
     font-size: 0.8rem;
   }
+  .about-content-container .about-main-text-desc:hover {
+    -webkit-animation: changeFont 1s !important;
+            animation: changeFont 1s !important;
+    -webkit-transition: 1s all !important;
+    transition: 1s all !important;
+    font-size: 1rem !important;
+    color: white !important;
+  }
   .about-content-container .about-img-container {
-    width: 80%;
+    width: 80% !important;
+  }
+  .about-content-container .about-img-container:hover {
+    width: 87% !important;
+    -webkit-transition: 1s all !important;
+    transition: 1s all !important;
   }
 }
 
