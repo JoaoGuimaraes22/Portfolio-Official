@@ -98,7 +98,7 @@ const Experience = () => {
                 </div>
               </div>
               <div className="experience-box-img-container experience-box-img-container-2">
-                <img src="/media/imgs/unip.png"></img>
+                <img src="/media/imgs/unipartner.jpg"></img>
               </div>
             </div>
           </Zoom>
