@@ -310,18 +310,6 @@ a {
   }
 }
 
-.about-content-title:hover + .about-content-description {
-  -webkit-transition: 1s all;
-  transition: 1s all;
-  color: black;
-}
-
-.about-content-title:hover {
-  -webkit-transition: 1s all;
-  transition: 1s all;
-  color: black;
-}
-
 .skills {
   background: -webkit-gradient(linear, left top, left bottom, from(#57396f), to(#34648e));
   background: linear-gradient(#57396f, #34648e);
