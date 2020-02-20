@@ -23,7 +23,7 @@ const Experience = () => {
                     to become the best version of me possible.
                   </p>
                   <p className="text-desc-d text-desc-d2">
-                    My path was the following:
+                    My favorite projects were:
                     <br />
                     <br />
                   </p>
