@@ -29,3 +29,18 @@
     }
   }
 }
+
+@media (max-width: 960px) {
+  .landing-main-title {
+    font-size: 3.5rem;
+  }
+  .landing-main-subtitle {
+    font-size: 1.5rem;
+  }
+  .landing-main-subtext {
+    font-size: 0.9rem;
+  }
+  .landing-main-button {
+    font-size: 0.9rem;
+  }
+}
