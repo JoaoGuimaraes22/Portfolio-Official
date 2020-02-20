@@ -23,13 +23,13 @@ const Experience = () => {
                     to become the best version of me possible.
                   </p>
                   <p className="text-desc-d text-desc-d2">
-                    My path was the following:
+                    My favorite things to do were:
                     <br />
                     <br />
                   </p>
                   <ul className="text-desc-list">
                     <li className="text-desc-list-item">
-                      Building full stack website with the MERN stack.
+                      Building full stack websites with the MERN stack.
                     </li>
                     <li className="text-desc-list-item">
                       Developing virtual assistants using Azure ML, NLP and C#.
